@@ -1,0 +1,246 @@
+/**
+ * commons
+ *
+ * @format
+ */
+
+.header {
+  position: absolute;
+}
+
+.devSection {
+  margin-top: 2vw;
+  border-radius: 2vw;
+  margin-bottom: 3vw;
+  background-color: black;
+  width: 79vw;
+  height: 20vw;
+  gap: 0.5vw;
+  display: flex;
+  /* flex-direction: column; */
+  padding: 2vw;
+  justify-content: center;
+}
+
+.line1 {
+  color: white;
+  font-size: 1.15rem;
+  font-weight: 300;
+}
+
+.alignCenter {
+  text-align: center;
+}
+
+.head1 {
+  font-size: 4.8rem;
+  font-weight: 700;
+}
+
+.normal {
+  font-weight: 300;
+}
+
+.storyText {
+  color: #eb9fff;
+  font-weight: bold;
+  font-size: 2.88rem;
+  align-self: center;
+  text-align: center;
+  margin-top: 5vw;
+}
+.stryMain {
+  display: flex;
+  justify-content: center;
+}
+.storyText1 {
+  color: #000;
+  font-size: var(--content-text);
+  margin-top: 1vw;
+  width: 70vw;
+  text-align: center;
+  line-height: 1.8vw;
+}
+.contentContainer {
+  display: flex;
+  gap: 5.5vw;
+  margin-bottom: 1vw;
+  align-items: center;
+  justify-content: center;
+  padding-top: 1vw;
+  padding-bottom: 1vw;
+  width: 99vw;
+}
+.storyText2 {
+  color: #000;
+  font-size: var(--content-text);
+  width: 74vw;
+  line-height: 1.8vw;
+}
+.heading2 {
+  font-size: var(--section-heading2);
+}
+.Aceheading {
+  color: #eb9fff;
+  font-weight: bold;
+  font-size: var(--section-heading);
+  align-self: center;
+  text-align: center;
+  margin-top: 8vw;
+}
+.btnContainer {
+  display: flex;
+  gap: 2vw;
+  width: 20vw;
+}
+
+.indImage {
+  width: 8vw;
+  height: auto;
+}
+
+.h3 {
+  font-size: 3vw;
+  font-weight: 600;
+}
+
+.btnSignup {
+  color: white;
+  border: 0.2vw solid white;
+  padding-top: 0.7vw;
+  padding-bottom: 0.7vw;
+  padding-left: 2vw;
+  padding-right: 2vw;
+  border-radius: 0.7vw;
+  font-weight: bold;
+  font-size: var(--content-text);
+}
+/* Primary */
+
+.flexRow {
+  display: flex;
+}
+.contentWidth {
+  width: 35vw;
+}
+.blockChianContainer {
+  width: 40vw;
+}
+
+.blockChainCode {
+  width: 18vw;
+}
+
+.numberStyles {
+  font-size: 5vw;
+  opacity: 0.1;
+  font-weight: bold;
+  /* color: #9B86FE; */
+  line-height: 4vw;
+}
+
+.devContentContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 1.2vw;
+}
+@media screen and (max-width: 870px) {
+  .indImage {
+    width: 20vw;
+    height: auto;
+    margin-top: 2vw;
+  }
+
+  .devContentContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 1.2vw;
+    text-align: center;
+  }
+
+  .devSection {
+    margin-top: 2vw;
+    margin-bottom: 3vw;
+    background-color: black;
+    width: auto;
+    height: auto;
+    gap: 0.5vw;
+    display: flex;
+    flex-direction: column;
+    padding: 2vw;
+    justify-content: center;
+  }
+
+  .h3 {
+    font-size: 4vw;
+  }
+
+  .contentContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 5.5vw;
+    margin-bottom: 1vw;
+  }
+  .gap10 {
+    gap: 10vw;
+  }
+
+  .mb10 {
+    margin-bottom: 10vw;
+  }
+  .mt10 {
+    margin-top: 10vw;
+  }
+  .blockChainCode {
+    width: 25vw;
+  }
+  .blockChianContainer {
+    width: 80vw;
+  }
+  .contentWidth {
+    text-align: center;
+    width: 80vw;
+  }
+  .Aceheading {
+    font-size: var(--section-heading-mob);
+  }
+  .storyText {
+    font-size: var(--section-heading-mob);
+  }
+
+  .btnSignup {
+    font-size: var(--content-text-mob);
+    line-height: 4.2vw;
+  }
+  .storyText1 {
+    font-size: var(--content-text-mob);
+    line-height: 4.2vw;
+  }
+  .heading2 {
+    font-size: var(--section-heading2-mob);
+  }
+  .storyText2 {
+    font-size: var(--content-text-mob);
+    line-height: 4.2vw;
+  }
+
+  .line1 {
+    font-size: 3vw;
+    line-height: 5vw;
+    margin-top: 2vw;
+  }
+  .flexRow {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .numberStyles {
+    font-size: 11vw;
+    line-height: 13vw;
+  }
+  .head1 {
+    font-size: 8vw;
+    font-weight: bold;
+    line-height: 10vw;
+  }
+}

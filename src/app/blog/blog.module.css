@@ -1,0 +1,222 @@
+/*  commons  */
+
+.header {
+  justify-content: center;
+  align-items: center;
+  width: 99vw;
+  display: flex;
+  height: 624px;
+}
+
+.line1 {
+  color: white;
+  font-size: 1rem;
+  font-weight: 300;
+}
+
+.alignCenter {
+  text-align: center;
+}
+
+.head1 {
+  font-size: 72px;
+  font-weight: 700;
+  color: rgb(255, 255, 255);
+  justify-content: center;
+  align-items: center;
+}
+.head2 {
+  font-size: 48px;
+  font-weight: 700;
+  color: black;
+}
+
+.normal {
+  font-weight: 300;
+}
+
+.contentContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  background-color: white;
+  width: 99vw;
+  height: auto;
+}
+
+/*  cards specific */
+.bloglgCard {
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  gap: 60px;
+  align-self: center;
+  /* background-color: var(--button-color); */
+  width: 80rem;
+
+  margin-top: 50px;
+  margin-bottom: 30px;
+  align-items: center;
+}
+
+.postItem {
+  flex-direction: column;
+  display: flex;
+  gap: 1rem;
+  align-self: center;
+  width: 20rem;
+  height: auto;
+}
+
+.featuredContainer {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.btn {
+  color: black;
+  font-weight: 700;
+  font-size: 14px;
+  border-bottom: 0.2rem solid #9b86fe;
+  margin-top: 0.6rem;
+}
+
+.btnPrimary {
+  color: white;
+  border: 0.15rem solid #ff88c3;
+  padding-top: 0.7rem;
+  padding-bottom: 0.7rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  border-radius: 0.7rem;
+  font-weight: bold;
+  width: 10rem;
+  font-size: 1rem;
+}
+
+.serviceText1 {
+  font-size: 16px;
+  color: rgb(0, 0, 0);
+  line-height: 2.2rem;
+}
+.serviceText2 {
+  font-size: 0.8rem;
+  color: rgb(0, 0, 0);
+  line-height: 1.5rem;
+  font-weight: 300;
+}
+
+.postsContainer {
+  width: clamp(45rem, 80vw, 80.6rem);
+  justify-content: center;
+  display: flex;
+  gap: 4rem;
+  flex-wrap: wrap;
+}
+
+.cardWidth {
+  width: 45vw;
+}
+.cardImage {
+  width: 36rem;
+  height: 24rem;
+}
+
+.postImage {
+  width: 35rem;
+  height: auto;
+}
+
+.head3 {
+  font-size: 1.4rem;
+  font-weight: 700;
+  color: black;
+}
+.headerImage {
+  width: 100vw;
+  height: auto;
+}
+
+.blogContainer {
+  display: flex;
+  flex-direction: column;
+  width: 99vw;
+}
+@media screen and (max-width: 1427px) {
+  .bloglgCard {
+    flex-direction: column;
+    align-items: center;
+    width: 90%;
+  }
+  .cardWidth {
+    width: 35rem;
+  }
+}
+@media screen and (max-width: 870px) {
+  .postsContainer {
+    width: 100%;
+  }
+  .blogContainer {
+    width: 100vw;
+  }
+  .postImage {
+    width: 100%;
+  }
+
+  .cardImage {
+    width: 100%;
+  }
+
+  .postItem {
+    width: 70%;
+    align-items: center;
+  }
+
+  .head1 {
+    font-size: 8vw;
+  }
+
+  .head2 {
+    font-size: 4.5vw;
+  }
+
+  .head3 {
+    font-size: 4vw;
+  }
+  .btn {
+    font-size: 3vw;
+  }
+
+  .serviceText1 {
+    font-size: 2.8vw;
+    line-height: 5vw;
+  }
+  .cardWidth {
+    width: 100%;
+  }
+
+  .serviceText2 {
+    font-size: 2.6vw;
+    line-height: normal;
+    display: none;
+  }
+
+  .btnPrimary {
+    padding-top: 1.7vw;
+    padding-bottom: 1.7vw;
+    border-radius: 1.2vw;
+    width: 26vw;
+    font-size: 3vw;
+  }
+
+  .headerImage {
+    height: 70vw;
+  }
+
+  .header {
+    height: 60vw;
+    align-content: center;
+  }
+}

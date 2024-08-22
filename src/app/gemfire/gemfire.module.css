@@ -1,0 +1,381 @@
+/*  commons  */
+
+.header {
+  justify-content: center;
+  align-items: center;
+  width: 99vw;
+  height: 50vw;
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0.843);
+  /* top: 20vw; */
+  padding-top: 10vw;
+}
+
+.headerImage{
+  color: transparent;
+  width: 60vw;
+  height: auto;
+  position: relative;
+  top: -16vw;
+}
+
+.line1 {
+  color: white;
+  font-size: 1.2vw;
+  font-weight: 300;
+}
+
+.alignCenter {
+  text-align: center;
+}
+
+.head1 {
+  font-size: 3.8vw;
+  font-weight: 700;
+}
+
+.normal {
+  font-weight: 100;
+}
+
+/* Primary */
+.contentContainerColumn {
+  width: 75vw;
+  flex-direction: column;
+  margin-bottom: 1vw;
+  display: flex;
+  margin-top: 3vw;
+  align-self: center;
+}
+
+.contentContainerRow {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 11vw;
+  margin-bottom: 5vw;
+}
+
+.heading1 {
+  font-size: clamp(1.929rem,2.9vw,4.714rem);
+  font-weight: 700;
+}
+
+.text1 {
+  font-size: var(--lg-text);
+}
+.text2 {
+  font-size: var(--content-text);
+  line-height: 2vw;
+}
+
+.widthMid {
+  width: 50vw;
+}
+
+.headingSection {
+  font-size: var(--section-heading3);
+  color: white;
+}
+
+/*  contact container styles */
+
+.devSection {
+  margin-bottom: 3vw;
+  margin-top: 8vw;
+  background-color: black;
+  width: 80vw;
+  height: 20vw;
+  gap: 0.5vw;
+  display: flex;
+  /* flex-direction: column; */
+  padding: 2vw;
+  justify-content: center;
+}
+
+.devContentContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 1.2vw;
+  width: 35vw;
+}
+
+.flexCol {
+  display: flex;
+  flex-direction: column;
+  gap: 2vw;
+  align-items: center;
+}
+
+.intrgrationCard {
+  font-weight: 700;
+  color: black;
+  background-image: linear-gradient(to bottom, #ff88c385, #9c86fe7f);
+  border-radius: 1vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 3.5vw;
+  width: 56vw;
+  margin-bottom: 1vw;
+  margin-top: 1vw;
+}
+
+.contactCard1 {
+  display: flex;
+  font-size: 2vw;
+  color: rgb(255, 255, 255);
+  width: 15vw;
+}
+.contactCard {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 2vw;
+  color: black;
+  background-color: #8fd5cc;
+  border-radius: 2vw;
+  height: 5vw;
+  width: 15vw;
+}
+.servieText {
+  font-size: 1vw;
+  color: white;
+  line-height: 1.8vw;
+}
+
+.flexRow {
+  display: flex;
+  flex-direction: row;
+  gap: 2vw;
+  align-items: center;
+}
+.imgMin {
+  width: 1vw;
+  height: auto;
+}
+.formContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 1.2vw;
+  background: white;
+  border-radius: 1vw;
+  padding: 2vw;
+  width: 34vw;
+  height: 24vw;
+  border: 0.1vw solid #d5d5d5;
+}
+.inputItem {
+  display: flex;
+  flex-direction: column;
+  gap: 1vw;
+}
+.contactInput {
+  width: 14.5vw;
+  height: 3vw;
+  /* border-radius: 0.5vw; */
+  padding-left: 0.5vw;
+  color: black;
+  font-size: 1.2vw;
+  /* background-color: #EBEBEB; */
+  border-bottom: 0.1vw solid #c9c9c9;
+}
+
+.contactInput::placeholder {
+  font-size: 0.9vw;
+}
+
+.contactTextArea {
+  width: 30.3vw;
+  height: 12vw;
+  /* border-radius: 0.5vw; */
+  padding-left: 0.5vw;
+  color: black;
+  font-size: 1.2vw;
+  padding-top: 1vw;
+  border-bottom: 0.1vw solid #c9c9c9;
+}
+
+.btnSignup {
+  color: white;
+  border: 0.2vw solid white;
+  padding-top: 0.7vw;
+  padding-bottom: 0.7vw;
+  padding-left: 2vw;
+  padding-right: 2vw;
+  border-radius: 0.7vw;
+  font-weight: bold;
+  font-size: 1vw;
+  width: 9vw;
+  height: 3vw
+}
+
+
+.headingWidthMid {
+  width: clamp(19.393rem,35.7vw,80.929rem)
+}
+
+.imgWidthMin {
+  width: 22vw;
+  height: auto;
+  align-self: center;
+  margin-top: 1vw;
+}
+
+.imageWidthMid {
+  width: 40vw;
+  height: auto;
+  align-self: center;
+}
+.imagefireWidth {
+  width: 32vw;
+  height: auto;
+  align-self: center;
+}
+.headerText{
+  font-size: clamp(1rem,1.5vw,2rem)
+}
+
+.coverHeading{
+  font-size:clamp(2.788rem,5vw,6rem);
+  font-weight: bold;
+  text-align: center;
+  width: 79vw;
+}
+
+.headerContainer{
+  width: 99vw;
+    height: 50vw;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+@media screen and (max-width: 870px) {
+
+  .headerContainer{
+    
+    height: 65vw;
+
+  }
+
+  .coverHeading{
+    font-size: 6vw;
+  }
+
+  .headerText{
+    font-size: 2.6vw;
+  }
+  /* contact card */
+  .devSection {
+    flex-direction: column;
+    background: none;
+    height: auto;
+    background: black;
+    width: 100vw;
+    margin-top: 10vw;
+    margin-bottom: 0;
+  }
+
+  .servieText {
+    font-size: 2.8vw;
+    line-height: normal;
+  }
+
+  .devContentContainer {
+    width: 80vw;
+    gap: 2.5vw;
+  }
+
+  .formContainer {
+    width: 80vw;
+    height: 75vw;
+    margin-top: 4vw;
+  }
+  .contactInput::placeholder {
+    font-size: 2.8vw;
+  }
+  .contactInput {
+    font-size: 2.8vw;
+    width: 100%;
+    height: 6vw;
+    margin-top: 3vw;
+    padding-bottom: 2vw;
+  }
+
+  .contactTextArea {
+    margin-top: 3vw;
+    font-size: 2.8vw;
+    width: 100%;
+    height: 45vw;
+  }
+  .contactTextArea::placeholder {
+    font-size: 2.8vw;
+  }
+
+  .contactCard {
+    align-self: flex-end;
+    font-size: 2.8vw;
+    font-weight: bold;
+    height: 8vw;
+    width: 21vw;
+    color: white;
+    background-color: rgb(255, 136, 195);
+  }
+
+  .headerImage{
+    width: 80vw;
+  }
+
+  .imgMin {
+    width: 2.8vw;
+  }
+  .contactCard1 {
+    font-size: 5vw;
+  }
+  .btnSignup {
+    font-size: 2.6vw;
+    border-radius: 1.7vw;
+    width: 19vw;
+    height: auto;
+  }
+
+  /* ------------- */
+
+  .text1 {
+    font-size: var(--lg-text-mob);
+    line-height: 4.2vw;
+  }
+  .text2 {
+    font-size: var(--content-text-mob);
+    line-height: 4.2vw;
+  }
+  .heading1 {
+    font-size: var(--section-heading-mob);
+  }
+  .contentContainerRow {
+    flex-direction: column;
+    width: 100%;
+    gap: 7vw;
+    margin-bottom: 10vw;
+  }
+  .gap {
+    gap: 2vw;
+  }
+.textCenter{
+  text-align: center;
+}
+  .maxWidth {
+    width: 100%;
+  }
+
+  .headingWidth {
+    width: 55vw;
+  }
+
+  .contentContainerColumn{
+    width: 80vw;
+  }
+}

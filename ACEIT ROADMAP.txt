@@ -1,0 +1,25 @@
+milestone 1 
+
+week 1 
+
+- home page deign project structure   http://acemq.com and http://ace8tech.com
+
+milestone 2 
+
+week 2 
+
+- project structe of whole app along all wiht the navigation and routing 
+
+
+milestone 3
+
+week 3 
+
+- develop a complete web version and navigations of the site  with seo optimization 
+- wordpress cms -moiz 
+
+milestone 4
+
+week 4 
+
+- make the site mobile responsive 

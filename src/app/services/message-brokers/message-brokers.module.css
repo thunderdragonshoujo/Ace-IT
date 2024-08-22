@@ -1,0 +1,177 @@
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+.TextOpacity {
+  animation: fadeIn 1.5s ease-in-out;
+}
+
+.text2 {
+  font-size:.9vw;
+  line-height: 2vw;
+}
+
+.flexRow {
+  display: flex;
+}
+
+.headinglg {
+  font-size: 5vw;
+}
+
+.serviceCard {
+  width: 20vw;
+  height: auto;
+}
+.serviceCardTop {
+  width: 32vw;
+  height: auto;
+}
+
+.techImage {
+  width: 6.5vw;
+  height: auto;
+}
+
+.rabbitImg{
+  width: 8vw;
+  height: auto;
+}
+
+.techHeading {
+  font-size: 1.6vw;
+}
+
+.techContainer{
+  display: flex;
+  width: 80vw;
+  justify-content: space-between;
+  margin-top: 2vw;
+}
+
+
+.valueImg{
+  width: 80vw;
+  height: auto;
+  margin-top: 2vw;
+  margin-left: 2vw;
+}
+
+.learnBtn{
+  border-width: .2vw;
+  border-color: #5545A0;
+  width: 10vw;
+  height: 3vw;
+  border-radius: .5vw;
+  font-weight: bold;
+  margin-top: 2vw;
+  color: #000;
+}
+
+  
+
+.heading1{
+  font-size: var(--section-heading);
+  font-weight: bold;
+}
+
+.headingMargin{
+  margin-top: 3vw;
+}
+@media screen and (max-width: 870px) {
+
+  .btnSignup {
+    font-size: 2.6vw;
+    border-radius: 1.7vw;
+    height: 8vw;
+    width: auto;
+    border: .15vw solid white;
+  }
+
+  .heading1{
+    font-size: var(--section-heading-mob);
+ 
+      }
+
+  .learnBtn{
+    width: 23vw;
+    height: 7vw;
+    margin-top: 5vw;
+  }
+
+  .headingMargin{
+    margin-top: 10vw;
+    margin-bottom: 10vw;
+  }
+.premerTxt{
+  background-color: #5545A0;
+  color: white;
+  padding: 1vw;
+  border-radius: .7vw;
+}
+.valueImg{
+  width: 97vw;
+}
+  .headinglg {
+    font-size: var(--header-heading-mob);
+    margin-top: 10vw;
+    margin-bottom: 6vw;
+  }
+  .techHeading {
+    font-size: 3.4vw;
+  }
+
+  .text1{
+    font-size: 2.9vw;
+    line-height: 6vw;
+  }
+
+.techContainer{
+  flex-wrap: wrap;
+  width: 70vw;
+}
+  .techImage{
+    width: 18vw;
+
+  }
+
+  .rabbitImg{
+    width: 17vw;
+  }
+
+  .serviceCard {
+    width: 70vw;
+    align-self: center;
+  }
+  .serviceCardTop{
+    width: 80vw;
+    align-self: center;
+  }
+
+  .flexRow {
+    flex-direction: column;
+    gap: 10vw;
+  }
+
+  .text2 {
+    font-size: var(--content-text-mob);
+    line-height: 4.2vw;
+  }
+
+  .assessmentsWidth{
+    width: 80vw;
+    margin-bottom: 10vw;
+
+    
+  }
+
+  .consultants{
+    margin-top: 5vw;
+    margin-bottom: 10vw;
+
+  }
+}

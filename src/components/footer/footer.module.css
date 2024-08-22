@@ -1,0 +1,147 @@
+.footerContainer {
+  display: flex;
+  flex-direction: column;
+  width: 99vw;
+  align-items: center;
+  background-color: #0d111c;
+}
+.text2 {
+  font-size: var(--content-text);
+  line-height: 1.8vw;
+}
+
+.icon2 {
+  width: 2vw;
+  height: auto;
+}
+
+.icon {
+  width: 2vw;
+  height: auto;
+}
+.icon3 {
+  width: 2vw;
+  height: auto;
+}
+.text1 {
+  font-size: var(--lg-text);
+}
+
+.widthMin {
+  width: 20vw;
+}
+
+.footerContent {
+  display: flex;
+  width: 80vw;
+  justify-content: space-between;
+  margin-top: 6vw;
+}
+
+.footerItem {
+  width: 20vw;
+}
+
+.copyWritsContainer {
+  height: 4vw;
+  width: 99vw;
+  background-color: #000;
+  text-align: center;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  margin-top: 9vw;
+}
+.button {
+  width: 6vw;
+  height: 2.5vw;
+  background-color: #0d111c;
+  margin-top: 2vw;
+  user-select: none;
+  /* border: .15vw solid  ; */
+  /* border-image:linear-gradient(to right, #73317a, #72c1c1) ; */
+}
+
+.heading3 {
+  font-size: 1.5vw;
+}
+
+.inputContainer {
+  color: #000;
+  height: 2.8vw;
+  border-radius: 0.5vw;
+  padding: 1vw;
+  margin-top: 2vw;
+}
+
+.inputContainer:active {
+  border: none;
+  outline: none;
+}
+
+.aceLogo {
+  width: 11vw;
+  height: auto;
+}
+.marginl {
+  margin-left: 7vw;
+}
+@media screen and (max-width: 870px) {
+  .copyWritsContainer {
+    height: 10vw;
+  }
+  .aceLogo {
+    width: 25vw;
+    margin-bottom: 4vw;
+  }
+  .icon2 {
+    width: 4vw;
+  }
+
+  .icon {
+    height: auto;
+    width: 4vw;
+  }
+
+  .inputContainer {
+    height: 6vw;
+  }
+  .widthMin {
+    width: 100%;
+    /* background-color: aqua; */
+  }
+
+  .button {
+    font-size: var(--lg-text-mob);
+    width: 18vw;
+    height: 7vw;
+  }
+
+  .heading3 {
+    font-size: var(--section-heading3-mob);
+    margin-bottom: 4vw;
+    margin-top: 4vw;
+  }
+  .text1 {
+    font-size: var(--lg-text-mob);
+  }
+
+  .text2 {
+    font-size: var(--content-text-mob);
+    line-height: 4.2vw;
+  }
+  .marginl {
+    margin-left: 0;
+  }
+  .footerContent {
+    flex-wrap: wrap;
+    align-items: center;
+  }
+  .footerItem {
+    width: 38vw;
+  }
+  .icon3 {
+    width: 4.5vw;
+    height: auto;
+  }
+}

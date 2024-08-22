@@ -1,0 +1,166 @@
+.flexRow {
+  display: flex;
+}
+
+.alignStart {
+  margin-left: 4vw;
+  margin-top: 6vw;
+  align-self: flex-start;
+}
+
+.contentCard {
+  margin-top: 2vw;
+  margin-left: 42vw;
+  position: absolute;
+}
+
+.imageWidthMin {
+  width: 30vw;
+  height: auto;
+}
+.imageWidthMid {
+  width: 43vw;
+  height: auto;
+}
+
+.imageWidthmax {
+  width: 50vw;
+  height: auto;
+}
+
+.imgWidthmin {
+  width: 50vw;
+  height: auto;
+}
+
+.heading1 {
+  font-size: var(--section-heading);
+  font-weight: bold;
+}
+.text2 {
+  font-size: var(--content-text);
+  line-height: 1.8vw;
+}
+
+.expCard {
+  width: 30.5vw;
+  height: auto;
+}
+.cardLg {
+  width: 55vw;
+  height: auto;
+}
+
+.headertxt {
+  font-size: 5vw;
+  font-weight: bold;
+  text-align: center;
+  color: #9b86fe;
+}
+
+.text1 {
+  font-size: var(--lg-text);
+}
+
+.widthContainer {
+  width: auto;
+}
+@media screen and (max-width: 870px) {
+  .widthContainer {
+    width: 80%;
+    text-align: center;
+  }
+
+  .mBottom {
+    margin-bottom: 10vw;
+  }
+
+  .btnSignup {
+    font-size: 2.6vw;
+    border-radius: 1.7vw;
+    height: 8vw;
+    width: auto;
+    border: 0.15vw solid white;
+  }
+
+  .gap {
+    gap: 3vw;
+  }
+  .text1 {
+    font-size: var(--lg-text-mob);
+  }
+
+  .headertxt {
+    font-size: 6.5vw;
+  }
+
+  .containerSpacing {
+    margin-top: 10vw;
+    margin-bottom: 10vw;
+    gap: 6vw;
+  }
+
+  .cardLg {
+    width: 100%;
+  }
+  .expCard {
+    width: 60vw;
+  }
+
+  .mobColumn {
+    display: flex;
+    flex-direction: column;
+    gap: 3vw;
+    align-self: center;
+    width: 75vw;
+  }
+
+  .heading1 {
+    font-size: var(--section-heading-mob);
+  }
+  .text2 {
+    font-size: var(--content-text-mob);
+    line-height: 4.2vw;
+  }
+  .imgWidthmin {
+    width: 80vw;
+  }
+
+  .imageWidthmax {
+    width: 80vw;
+  }
+  .imageWidthMid {
+    width: 80vw;
+  }
+  .imageWidthMin {
+    width: 80vw;
+  }
+  .imageWidth {
+    width: 80vw;
+  }
+  .alignStart {
+    align-self: center;
+    margin: 0;
+  }
+  .contentCard {
+    position: relative;
+    margin: 0;
+  }
+
+  .flexRow {
+    flex-direction: column;
+    gap: 10vw;
+  }
+
+  .alignCenter {
+    align-items: center;
+  }
+
+  .alignwidth {
+    align-self: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 80vw;
+  }
+}

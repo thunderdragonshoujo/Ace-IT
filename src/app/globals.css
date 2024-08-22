@@ -1,0 +1,67 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* @font-face {
+  font-family: 'Mona-Sans-Regular';
+  src: url('/fonts/Mona-Sans-Regular.woff2') format('woff'),
+      
+
+} */
+
+:root {
+  --primary-color: #9b86fe;
+  --secondary-color: #ff88c3;
+  /* header heading 96px  */
+  --header-heading: 3.8vw;
+  /*64px heading1 */
+  --section-heading: 2.88rem;
+  /* 48 px heading2 */
+  --section-heading2: 2.5vw;
+  /* 32px heading3 */
+  --section-heading3: 2vw;
+  /* text2 16-20px*/
+  --content-text: 0.96rem;
+  /* text2 10-12px*/
+  --content-text2: 0.7vw;
+  /* text1 20px-25px */
+  --lg-text: 1.2vw;
+  color: white;
+
+  /* Mobile responsive constants  */
+  --content-text2-mob: 2.45vw;
+  --content-text-mob: 2.6vw;
+  --lg-text-mob: 2.8vw;
+  --section-heading-mob: 5.2vw;
+  --section-heading2-mob: 4.5vw;
+  --section-heading3-mob: 3.8vw;
+  --header-heading-mob: 5.2vw;
+}
+
+body {
+  /* background-color: #0e1218; */
+  background-color: #050717;
+
+  font-family: "Mona-Sans-Regular", sans-serif;
+}
+
+/*  These are the scrollbar styles */
+body::-webkit-scrollbar {
+  width: 1vw; /* Adjust the width as needed */
+}
+
+body::-webkit-scrollbar-thumb {
+  /* border: 1px solid #fff; */
+  border-radius: 1vw;
+  background-color: #727272;
+  /* Change the color to your desired color */
+}
+body::-webkit-scrollbar-track {
+  background-color: #2d2d2d;
+}
+
+@layer utilities {
+  /* .text-balance {
+    text-wrap: balance;
+  } */
+}

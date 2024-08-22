@@ -1,0 +1,528 @@
+/* CONSTANTS  */
+
+.heading1 {
+  font-size: var(--section-heading);
+  font-weight: 700;
+}
+
+.openaceHeader {
+  color: transparent;
+  width: 99vw;
+  height: auto;
+  align-self: center;
+  margin-top: 7vw;
+  margin-bottom: 2vw;
+}
+
+.heading2 {
+  font-size: var(--section-heading2);
+  font-weight: 700;
+}
+.SuppportContainer {
+  width: 70vw;
+  height: auto;
+  align-self: center;
+}
+
+.heading3 {
+  font-size: var(--section-heading3);
+  font-weight: 700;
+}
+.infoCards {
+  width: 21vw;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  height: 12vw;
+}
+.text1 {
+  font-size: var(--lg-text);
+  margin-bottom: 1vw;
+}
+.text2 {
+  font-size: var(--content-text);
+}
+
+.text3 {
+  font-size: 0.8vw;
+  width: 25vw;
+}
+
+/*  commons  */
+
+.header {
+  /* justify-content: center; */
+  align-items: center;
+  width: 99vw;
+  height: 37vw;
+  /* position: absolute; */
+  background-color: rgb(0, 0, 0);
+  /* top: 20vw; */
+  padding-top: 10vw;
+  display: flex;
+  flex-direction: column;
+}
+
+.line1 {
+  color: white;
+  font-size: 1.2vw;
+  font-weight: 300;
+}
+
+.alignCenter {
+  text-align: center;
+}
+
+.head1 {
+  font-size: 3.8vw;
+  font-weight: 700;
+}
+
+.normal {
+  font-weight: 100;
+}
+
+/* Primary */
+.contentContainerColumn {
+  gap: 5vw;
+  width: 99vw;
+  flex-direction: column;
+  margin-bottom: 1vw;
+  display: flex;
+  margin-top: 3vw;
+  align-self: center;
+}
+
+.contentContainerRow {
+  display: flex;
+  justify-content: space-between;
+}
+
+/*  contact container styles */
+
+.devSection {
+  margin-bottom: 3vw;
+  margin-top: 8vw;
+  background-color: black;
+  width: 79vw;
+  height: 20vw;
+  gap: 0.5vw;
+  display: flex;
+  /* flex-direction: column; */
+  padding: 2vw;
+  justify-content: center;
+}
+
+.devContentContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 1.2vw;
+  width: 35vw;
+}
+
+.flexCol {
+  display: flex;
+  flex-direction: column;
+  gap: 2vw;
+  align-items: center;
+}
+
+.intrgrationCard {
+  font-weight: 700;
+  color: black;
+  background-image: linear-gradient(to bottom, #ff88c385, #9c86fe7f);
+  border-radius: 1vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 3.5vw;
+  width: 56vw;
+  margin-bottom: 1vw;
+  margin-top: 1vw;
+}
+
+.contactCard1 {
+  display: flex;
+  font-size: 2vw;
+  color: rgb(255, 255, 255);
+  width: 15vw;
+}
+.contactCard {
+  align-self: flex-end;
+  font-size: 1.2vw;
+  font-weight: bold;
+  height: 3vw;
+  width: 9vw;
+  color: white;
+  background-color: rgb(255, 136, 195);
+}
+.servieText {
+  font-size: 1vw;
+  color: white;
+  line-height: 1.8vw;
+}
+
+.flexRow {
+  display: flex;
+  flex-direction: row;
+  gap: 8vw;
+  align-items: center;
+}
+.flexRow1 {
+  display: flex;
+  flex-direction: row;
+  gap: 3vw;
+  align-items: center;
+}
+.imgMin {
+  width: 1vw;
+  height: auto;
+}
+.formContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 1.2vw;
+  background: white;
+  border-radius: 1vw;
+  padding: 2vw;
+  width: 34vw;
+  height: 24vw;
+  border: 0.1vw solid #d5d5d5;
+}
+.inputItem {
+  display: flex;
+  flex-direction: column;
+  gap: 1vw;
+}
+.contactInput {
+  width: 14.5vw;
+  height: 3vw;
+  /* border-radius: 0.5vw; */
+  padding-left: 0.5vw;
+  color: black;
+  font-size: 1.2vw;
+  /* background-color: #EBEBEB; */
+  border-bottom: 0.1vw solid #c9c9c9;
+}
+
+.contactInput::placeholder {
+  font-size: 0.9vw;
+}
+
+.contactTextArea {
+  width: 30.3vw;
+  height: 12vw;
+  /* border-radius: 0.5vw; */
+  padding-left: 0.5vw;
+  color: black;
+  font-size: 1.2vw;
+  padding-top: 1vw;
+  border-bottom: 0.1vw solid #c9c9c9;
+}
+
+.cardsContainer {
+  justify-content: center;
+  gap: 2vw;
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 3vw;
+  position: relative;
+  width: 77vw;
+  margin: 0 auto;
+}
+.itemImg1 {
+  width: 2.5vw;
+  height: auto;
+  align-self: center;
+  /* position: absolute; */
+}
+.itemImg {
+  width: 4vw;
+  height: auto;
+  align-self: center;
+  /* position: absolute; */
+}
+.obaasCard {
+  padding: 1vw;
+  display: flex;
+  gap: 2vw;
+  width: 26vw;
+  margin-bottom: 2vw;
+  height: auto;
+  /* border: .1vw solid ; */
+  border-radius: 0.5vw;
+  box-shadow: 0 1px 0.2vw 0px rgba(255, 136, 195, 0.34);
+}
+.btnContainer {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  margin-bottom: 2vw;
+}
+.btnSignup {
+  color: white;
+  border: 0.2vw solid white;
+  padding-top: 0.7vw;
+  padding-bottom: 0.7vw;
+  padding-left: 2vw;
+  padding-right: 2vw;
+  border-radius: 0.7vw;
+  font-weight: bold;
+  font-size: 1vw;
+}
+.headerHeading {
+  font-size: var(--header-heading);
+  font-weight: bold;
+}
+
+.textLg {
+  font-size: var(--lg-text);
+}
+
+/* card  */
+
+.cardContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 2vw;
+  position: relative;
+  width: 100%;
+  align-self: center;
+  justify-content: center;
+  align-items: center;
+  height: 23vw;
+}
+
+.cardContent {
+  z-index: 222;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  gap: 2vw;
+  height: 20vw;
+  width: 80vw;
+}
+
+.detailsCard {
+  width: 30vw;
+  display: flex;
+  gap: 2vw;
+  align-items: center;
+}
+
+.top {
+  position: relative;
+  top: -3vw;
+}
+
+.bottom {
+  position: relative;
+  bottom: -3vw;
+}
+.supportImage {
+  color: transparent;
+  width: 99vw;
+  height: auto;
+  align-self: center;
+}
+
+.headingWidth {
+  color: white;
+  width: 45vw;
+  text-align: center;
+  align-self: center;
+  margin-bottom: 1vw;
+}
+
+.aceLogo {
+  width: 20vw;
+  height: auto;
+}
+.setionWidth {
+  width: 16vw;
+  align-self: center;
+}
+@media screen and (max-width: 870px) {
+  .SuppportContainer {
+    width: 100%;
+  }
+  .setionWidth {
+    width: auto;
+    align-self: auto;
+  }
+  .aceLogo {
+    color: transparent;
+    width: 60vw;
+    height: auto;
+    align-self: center;
+    margin-top: 10vw;
+    margin-bottom: 10vw;
+  }
+
+  .headingWidth {
+    width: 80vw;
+  }
+
+  .top {
+    top: 0;
+  }
+
+  .supportImage {
+    width: 100%;
+  }
+
+  .text3 {
+    font-size: var(--content-text2-mob);
+    width: auto;
+  }
+
+  .detailsCard {
+    width: 47vw;
+  }
+
+  .contentContainerColumn {
+    width: 100%;
+  }
+
+  .cardContent {
+    height: 60vw;
+  }
+  .cardContainer {
+    height: 85vw;
+  }
+
+  .textLg {
+    font-size: var(--lg-text-mob);
+  }
+  .text1 {
+    font-size: var(--lg-text-mob);
+  }
+  .text2 {
+    font-size: var(--content-text-mob);
+    line-height: 4.2vw;
+  }
+  .heading1 {
+    font-size: var(--section-heading-mob);
+  }
+
+  .openaceHeader {
+    width: 97vw;
+  }
+
+  .flexRow {
+    flex-direction: column;
+    gap: 10vw;
+  }
+
+  .infoCards {
+    width: 80vw;
+    height: auto;
+  }
+
+  .detailsCard {
+    width: 80vw;
+    flex-direction: column;
+  }
+  .obaasCard {
+    width: 100%;
+  }
+
+  .itemImg {
+    width: 10vw;
+  }
+
+  .itemImg1 {
+    width: 8vw;
+    height: 13vw;
+  }
+
+  .heading2 {
+    font-size: var(--section-heading2-mob);
+  }
+
+  .heading3 {
+    font-size: var(--section-heading3-mob);
+  }
+
+  .contactCard {
+    font-size: 2.6vw;
+    border-radius: 1.7vw;
+    height: 8vw;
+    width: 18vw;
+  }
+  .btnSignup {
+    font-size: 2.6vw;
+    border-radius: 1.7vw;
+    height: 8vw;
+    width: auto;
+  }
+  /* Contact Styles  */
+
+  .devSection {
+    flex-direction: column;
+    background: none;
+    margin-bottom: 65vw;
+  }
+
+  .servieText {
+    font-size: 2.8vw;
+    line-height: normal;
+  }
+
+  .devContentContainer {
+    width: 80vw;
+    gap: 2.5vw;
+  }
+
+  .formContainer {
+    width: 80vw;
+    height: 75vw;
+    margin-top: 4vw;
+  }
+  .contactInput::placeholder {
+    font-size: 2.8vw;
+  }
+  .contactInput {
+    font-size: 2.8vw;
+    width: 100%;
+    height: 6vw;
+    margin-top: 3vw;
+    padding-bottom: 2vw;
+  }
+
+  .bottom {
+    bottom: 0;
+  }
+
+  .contactTextArea {
+    margin-top: 3vw;
+    font-size: 2.8vw;
+    width: 100%;
+    height: 22vw;
+  }
+  .contactTextArea::placeholder {
+    font-size: 2.8vw;
+  }
+
+  .formButton {
+    align-self: flex-end;
+    font-size: 2.8vw;
+    font-weight: bold;
+    height: 8vw;
+    width: 21vw;
+    color: white;
+    background-color: rgb(255, 136, 195);
+  }
+
+  .imgMin {
+    width: 2.8vw;
+  }
+  .contactCard1 {
+    font-size: 5vw;
+  }
+
+  .btnContainer {
+    margin-bottom: 0;
+  }
+  /* -------- */
+}

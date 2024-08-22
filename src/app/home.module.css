@@ -1,0 +1,870 @@
+.contentContainer {
+  display: flex;
+  gap: 5.5vw;
+  margin-bottom: 1vw;
+}
+.contentContainer1 {
+  margin-bottom: 1vw;
+  display: flex;
+  gap: 3vw;
+  width: 90vw;
+  background-size: contain;
+  background-size: cover;
+  margin-top: 14vw;
+}
+
+.numberStyles {
+  font-size: 6.5vw;
+  opacity: 0.12;
+  font-weight: bold;
+  /* color: #9B86FE; */
+  line-height: 4vw;
+}
+
+.heading {
+  font-size: 3vw;
+  font-weight: 600;
+}
+
+.h2 {
+  color: #9b86fe;
+  font-size: 5vw;
+  font-weight: bold;
+}
+
+.h3 {
+  font-size: 3vw;
+  font-weight: 600;
+}
+
+.btn {
+  color: white;
+  border: 0.15vw solid #8167ff;
+  padding-top: 0.7vw;
+  padding-bottom: 0.7vw;
+  padding-left: 2vw;
+  padding-right: 2vw;
+  border-radius: 0.7vw;
+  font-weight: bold;
+  width: 12vw;
+  font-size: 1vw;
+}
+
+.domainsContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 2vw;
+  margin-top: 3vw;
+  height: 70vw;
+}
+
+.h1 {
+  font-size: 2vw;
+  font-weight: bold;
+  color: #86888b;
+  text-align: start;
+  width: 67vw;
+}
+
+.btnHeading {
+  font-size: 1.2vw;
+  font-weight: bold;
+}
+.btnText {
+  font-size: 1vw;
+  color: white;
+  text-align: start;
+}
+
+.buttonContainer {
+  height: 16vw;
+  display: flex;
+  justify-content: center;
+  margin-top: 6vw;
+  align-items: center;
+}
+
+.servicesContainer {
+  display: flex;
+  justify-content: space-between;
+}
+
+.serviceItem {
+  /* background-color: black; */
+  gap: 0.5vw;
+  display: flex;
+  flex-direction: column;
+  width: 13.9vw;
+  height: 25vw;
+}
+
+.featuredItem {
+  position: relative;
+  margin-top: 2vw;
+  background-color: black;
+  width: 25vw;
+  height: 20vw;
+  gap: 0.5vw;
+  display: flex;
+  flex-direction: column;
+  padding: 2vw;
+  justify-content: center;
+  border-radius: 2vw;
+}
+
+.marginl {
+  margin-left: 2vw;
+}
+
+.featureArrow {
+  color: transparent;
+  width: 2vw;
+  position: absolute;
+  right: 2vw;
+  top: 17vw;
+}
+.DomainLogoContainer {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.domainButton {
+  background-image: linear-gradient(
+    to bottom,
+    rgba(255, 136, 195, 1),
+    rgba(155, 134, 254, 1)
+  );
+  display: flex;
+  gap: 2vw;
+  align-items: center;
+  border-radius: 10vw;
+  justify-content: center;
+  width: 36vw;
+  height: 9vw;
+  background-color: #b878ff;
+}
+
+.BtnContentContainer {
+  flex-direction: column;
+  display: flex;
+  gap: 1vw;
+  align-items: flex-start;
+}
+
+.serviceHeading {
+  font-size: 1.3vw;
+  font-weight: bold;
+  color: white;
+}
+
+.servieText {
+  font-size: 1vw;
+  color: white;
+  line-height: 1.8vw;
+}
+
+.devSection {
+  margin-top: 2vw;
+  border-radius: 2vw;
+  margin-bottom: 3vw;
+
+  background-color: black;
+  width: 79vw;
+  height: 20vw;
+  gap: 0.5vw;
+  display: flex;
+  /* flex-direction: column; */
+  padding: 2vw;
+  justify-content: center;
+}
+
+.devContentContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 1.2vw;
+}
+
+.loopImg {
+  width: 29vw;
+  height: auto;
+  margin-top: 2vw;
+}
+
+.amongContainer {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  margin-top: 1vw;
+  align-items: center;
+  margin-bottom: 1vw;
+}
+
+.txtCenter {
+  text-align: center;
+}
+
+.sectionHeading {
+  font-size: 2vw;
+  font-weight: bold;
+}
+
+.amongImage {
+  width: 79vw;
+  height: auto;
+  /* margin-top: 1vw; */
+  margin-top: 8vw;
+}
+
+/*  */
+
+/* Commons */
+
+.head1 {
+  font-size: 6vw;
+
+  font-weight: 700;
+  position: relative;
+  top: -1vw;
+  line-height: 6vw;
+}
+.headL {
+  font-size: 7vw;
+  font-weight: 800;
+}
+
+.line1 {
+  color: white;
+  font-size: 1.2vw;
+  font-weight: 300;
+  line-height: 2vw;
+  margin-top: 3vw;
+  margin-bottom: 1.4vw;
+}
+
+.lineStyles {
+  color: transparent;
+  width: 2.7vw;
+  height: auto;
+  margin-left: 8vw;
+}
+
+.headerLine {
+  /* color: transparent; */
+  width: 100vw;
+  height: auto;
+  position: absolute;
+  top: 48vw;
+  /* background-color: #8167FF; */
+  /* box-shadow: 2px -26px 44px 9px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: 2px -26px 44px 9px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 2px -26px 44px 9px rgba(0, 0, 0, 0.75); */
+}
+
+.indImage {
+  width: 12vw;
+  height: auto;
+}
+
+.sectionHeadings {
+  color: white;
+  font-size: 3.7vw;
+  font-weight: bold;
+}
+
+.appImg {
+  width: 23vw;
+  height: auto;
+}
+
+.btnFeatures {
+  border: 0.1vw solid white;
+  border-radius: 2vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 14vw;
+  font-size: 1.3vw;
+  height: 2.7vw;
+}
+
+.featuredImage {
+  color: transparent;
+  width: 1.5vw;
+  height: auto;
+}
+
+.featuredHading {
+  font-size: 1.3vw;
+  font-weight: 600;
+  color: white;
+}
+
+.featuredText {
+  font-size: 1.1vw;
+  font-weight: normal;
+  color: white;
+}
+
+.featuredRight {
+  display: flex;
+  gap: 2vw;
+  background-color: #161b22;
+  border-radius: 2vw;
+  padding: 2vw;
+  width: 45vw;
+}
+
+.featuredInnerChild {
+  display: flex;
+  flex-direction: column;
+  gap: 2vw;
+  margin-bottom: 2.5vw;
+  background-color: #0d1117;
+  border-radius: 2vw;
+  justify-content: center;
+  height: 100%;
+}
+
+.featuredListItem {
+  display: flex;
+  align-items: center;
+  gap: 2vw;
+
+  padding: 0.5vw;
+  height: 3vw;
+  border-radius: 1vw;
+}
+.featuredListItem:hover {
+  /* background-color: #b878ff; */
+  background: linear-gradient(180deg, #ff88c3, #9b86fe);
+}
+.selectfeatur {
+  background: linear-gradient(180deg, #ff88c3, #9b86fe);
+}
+
+.featuredInnerHeading {
+  font-size: 2vw;
+  font-weight: bold;
+  color: white;
+  /* height: 6vw; */
+
+  margin-bottom: 3vw;
+}
+
+.formulaTree {
+  color: transparent;
+  width: 70vw;
+  height: auto;
+  position: relative;
+  top: -10vw;
+}
+
+.buttonGradient {
+  display: flex;
+  gap: 2vw;
+  border-radius: 1vw;
+  justify-content: center;
+  height: 5vw;
+  align-items: center;
+  position: relative;
+  border-width: 0.1vw;
+  border-style: dotted;
+  background-image: linear-gradient(to bottom, #ff88c3, #9b86fe);
+}
+
+.addressCard {
+  display: flex;
+  gap: 2vw;
+  border-radius: 1vw;
+  justify-content: center;
+  height: 5vw;
+  align-items: center;
+  position: relative;
+  /* border-width: 0.1vw; */
+  /* border-style: dotted; */
+
+  /* border-image: linear-gradient(to bottom, #FF88C3,#9B86FE ) .5; */
+}
+
+.featuredItem:hover {
+  background: #0c0c0c;
+}
+.amongHeading {
+  font-size: 1.5vw;
+  font-weight: 700;
+  color: white;
+  line-height: 0.2vw;
+}
+
+.loopImg:hover {
+  opacity: 0.7;
+}
+
+.addressItem {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2vw;
+}
+
+.contactImage {
+  border-radius: 1vw;
+  color: transparent;
+  width: 40vw;
+  height: auto;
+  position: absolute;
+  left: 0;
+  /* bottom: -14vw; */
+  margin-top: 8vw;
+}
+
+/* .btn:hover{
+
+} */
+.contactInput {
+  width: 19.4vw;
+  height: 3vw;
+  border-radius: 0.5vw;
+  padding-left: 0.5vw;
+  color: black;
+  font-size: 1.2vw;
+  background-color: #ebebeb;
+}
+
+.contactInput::placeholder {
+  font-size: 0.9vw;
+}
+
+.contactTextArea {
+  width: 40vw;
+  height: 12vw;
+  border-radius: 0.5vw;
+  padding-left: 0.5vw;
+  color: black;
+  font-size: 1vw;
+  padding-top: 1vw;
+  line-height: 1.8vw;
+}
+
+.contactTextArea::placeholder {
+  font-size: 1vw;
+}
+
+.contactCheckBox {
+  width: 1vw;
+  height: auto;
+}
+
+.contactCheckBox:checked {
+  background-color: #9b86fe; /* checked background color */
+  /* border-color: #007bff; checked border color */
+}
+
+/* Customize the appearance of unchecked state */
+.contactCheckBox:not(:checked) {
+  background-color: #000000; /* unchecked background color */
+  border-color: #9b86fe; /* unchecked border color */
+}
+
+.contactHeading {
+  font-size: 1.3vw;
+  font-weight: bold;
+}
+
+.headingSendUs {
+  font-size: 1.8vw;
+  font-weight: bold;
+}
+
+.contactText {
+  font-size: 1vw;
+  color: white;
+  line-height: 1.8vw;
+}
+
+.inputItem {
+  display: flex;
+  flex-direction: column;
+  gap: 1vw;
+}
+
+.formContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 1.2vw;
+}
+
+.featuredListAutomated {
+  background: linear-gradient(180deg, #ff88c3, #9b86fe);
+
+  height: 3vw;
+  border-radius: 1vw;
+  /* padding: 1vw; */
+  margin: 0;
+  display: flex;
+  align-items: center;
+  gap: 2vw;
+  padding: 0.7vw;
+}
+.autoImage {
+  background: black;
+  width: 1.9vw;
+  display: flex;
+  justify-content: center;
+  height: 1.9vw;
+  align-items: center;
+  border-radius: 0.2vw;
+}
+
+/*  Animations------------------------------------------  */
+
+@keyframes rotate {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.globeImg {
+  animation: rotate 10s linear infinite; /* Change the duration and timing function as needed */
+}
+
+@media screen and (max-width: 870px) {
+  .contactInput {
+    width: 39.4vw;
+    height: 7vw;
+    padding-left: 1.5vw;
+    font-size: var(--content-text-mob);
+    background-color: #ebebeb;
+  }
+
+  .contactInput::placeholder {
+    font-size: var(--content-text-mob);
+  }
+
+  .contactTextArea {
+    width: 80vw;
+    height: 40vw;
+    font-size: var(--content-text-mob);
+    line-height: 4.5vw;
+  }
+
+  .contactHeading {
+    font-size: 4vw;
+  }
+
+  .headingSendUs {
+    font-size: 5vw;
+  }
+  .contactCheckBox {
+    width: 4vw;
+  }
+
+  .contactText {
+    width: 80vw;
+    font-size: 3vw;
+    line-height: 4.5vw;
+  }
+  .contactTextArea::placeholder {
+    font-size: var(--content-text-mob);
+  }
+  .head1 {
+    font-size: 6vw;
+    font-weight: 700;
+    position: relative;
+    top: 0vw;
+    line-height: 6vw;
+    margin-top: 2vw;
+  }
+  .contentContainer1 {
+    margin-bottom: 1vw;
+    display: block;
+    gap: 3vw;
+    width: 90vw;
+    background-size: contain;
+    background-size: cover;
+    margin-top: 5vw;
+    margin-left: 5vw;
+  }
+  .line1 {
+    color: white;
+    font-size: 2.4vw;
+    font-weight: 300;
+    line-height: 3vw;
+    margin-top: 3vw;
+    margin-bottom: 1.4vw;
+  }
+
+  .btn {
+    color: white;
+    border: 0.15vw solid #8167ff;
+    padding-top: 0vw;
+    padding-bottom: 0vw;
+    padding-left: 0;
+    padding-right: 0;
+    padding: 3vw;
+    border-radius: 1vw;
+    font-weight: bold;
+    width: auto;
+    height: 8vw;
+    font-size: 2.5vw;
+    align-self: center;
+    margin-top: 2vw;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+  }
+  .h3 {
+    font-size: 5vw;
+  }
+  .contentContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 5.5vw;
+    margin-bottom: 1vw;
+  }
+  .sectionHeadings {
+    color: white;
+    font-size: 5vw;
+    font-weight: bold;
+    margin-left: 5vw;
+  }
+  .domainsContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 2vw;
+    margin-top: 3vw;
+    height: auto;
+    margin-left: 5vw;
+    align-items: center;
+  }
+  .servicesContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  .serviceItem {
+    gap: 0.5vw;
+    display: flex;
+    flex-direction: column;
+    width: 80vw;
+    height: auto;
+    margin-top: 2vw;
+    margin-bottom: 2vw;
+  }
+  .serviceHeading {
+    font-size: 4vw;
+    margin-top: 1vw;
+  }
+  .servieText {
+    font-size: 3vw;
+    color: white;
+    line-height: 4vw;
+  }
+
+  .btnHeading {
+    font-size: 4vw;
+    font-weight: bold;
+  }
+  .btnText {
+    font-size: 3vw;
+    color: white;
+    text-align: start;
+    width: 60vw;
+  }
+
+  .domainButton {
+    display: flex;
+    gap: 2vw;
+    align-items: center;
+    border-radius: 12vw;
+    justify-content: center;
+    width: 80vw;
+    height: auto;
+    padding: 2vw;
+    margin-top: 10vw;
+    /* margin-bottom: 5vw; */
+  }
+
+  .h1 {
+    font-size: 3vw;
+    font-weight: bold;
+    color: #86888b;
+    text-align: center;
+    width: 99vw;
+    margin-top: 8vw;
+  }
+
+  .featuredItem {
+    margin-top: 2vw;
+    background-color: black;
+    width: auto;
+    height: auto;
+    gap: 0.5vw;
+    display: flex;
+    flex-direction: column;
+    padding: 2vw;
+    justify-content: center;
+  }
+
+  .btnFeatures {
+    border: 0.1vw solid white;
+    border-radius: 2vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: auto;
+    font-size: 4vw;
+    height: auto;
+    padding: 2vw;
+    margin-top: 5vw;
+  }
+
+  .featuredRight {
+    display: flex;
+    gap: 2vw;
+    background-color: #161b22;
+    border-radius: 2vw;
+    padding: 2vw;
+    width: 100%;
+  }
+
+  .numberStyles {
+    font-size: 10vw;
+    line-height: 13vw;
+    margin-top: 2vw;
+  }
+
+  .featuredListItem {
+    height: auto;
+    padding: 0.5vw;
+  }
+
+  .featuredInnerChild {
+    display: flex;
+    flex-direction: column;
+    gap: 2vw;
+    margin-bottom: 2.5vw;
+    background-color: #0d1117;
+    border-radius: 2vw;
+    justify-content: center;
+    height: 100%;
+    padding-top: 3vw;
+    padding-bottom: 3vw;
+    width: 50%;
+  }
+
+  .featuredImage {
+    color: transparent;
+    width: 4vw;
+    height: auto;
+  }
+
+  .featuredHading {
+    font-size: 2.8vw;
+  }
+  .featuredText {
+    font-size: 2.8vw;
+  }
+  .autoImage {
+    background: black;
+    width: 4vw;
+    display: flex;
+    justify-content: center;
+    height: auto;
+    align-items: center;
+    border-radius: 0.2vw;
+  }
+  .featuredListAutomated {
+    background: linear-gradient(180deg, #ff88c3, #9b86fe);
+
+    height: 6vw;
+    border-radius: 1vw;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    gap: 2vw;
+    padding: 0.7vw;
+  }
+  .featuredInnerHeading {
+    font-size: 4vw;
+    height: 12vw;
+  }
+
+  .devSection {
+    margin-top: 2vw;
+    margin-bottom: 3vw;
+    background-color: black;
+    width: auto;
+    height: auto;
+    gap: 0.5vw;
+    display: flex;
+    flex-direction: column;
+    padding: 2vw;
+    justify-content: center;
+  }
+  .loopImg {
+    width: 99vw;
+    height: auto;
+    margin-top: 2vw;
+  }
+
+  .amongContainer {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    margin-top: 1vw;
+    align-items: center;
+    margin-bottom: 1vw;
+    gap: 2vw;
+    left: 0vw;
+  }
+
+  .amongHeading {
+    font-size: 4vw;
+    font-weight: 700;
+    color: white;
+    margin-top: 1vw;
+  }
+  .devContentContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 1.2vw;
+    text-align: center;
+  }
+  .indImage {
+    width: 20vw;
+    height: auto;
+    margin-top: 2vw;
+  }
+
+  .amongImage {
+    width: 99vw;
+    height: auto;
+    margin-top: 8vw;
+  }
+
+  .formulaTree {
+    color: transparent;
+    width: 99vw;
+    height: auto;
+    position: static;
+    top: 0vw;
+    margin-top: 2vw;
+  }
+
+  .appImg {
+    width: 99vw;
+    height: auto;
+  }
+  .buttonContainer {
+    height: 16vw;
+    display: flex;
+    justify-content: center;
+    margin-top: 0;
+    align-items: center;
+  }
+}

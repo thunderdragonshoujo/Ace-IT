@@ -1,0 +1,316 @@
+/*  commons  */
+
+.header {
+  justify-content: center;
+  align-items: center;
+  width: 99vw;
+  height: 44vw;
+  position: absolute;
+  /* background-color: rgba(0, 0, 0, 0.843); */
+  /* top: 20vw; */
+  padding-top: 10vw;
+}
+
+.line1 {
+  color: white;
+  font-size: var(--lg-text);
+  font-weight: 300;
+}
+
+.alignCenter {
+  text-align: center;
+}
+
+.head1 {
+  font-size:var(  --header-heading);
+  font-weight: 700;
+}
+
+.normal {
+  font-weight: 100;
+}
+
+.helpClient {
+  width: 80vw;
+  height: auto;
+  margin-top: 6vw;
+  margin-bottom: 6vw;
+}
+
+.envParent {
+  display: flex;
+  width: 80vw;
+  justify-content: space-between;
+  margin-top: 3vw;
+  margin-bottom: 3vw;
+}
+
+.consultingMain {
+  align-items: center;
+  width: 99vw;
+  display: flex;
+  background-color: white;
+  flex-direction: column;
+  height: auto;
+  padding-bottom: 5vw;
+}
+
+.devScop {
+  display: flex;
+  width: 80vw;
+  justify-content: space-between;
+}
+/* Primary */
+
+.flexRow {
+  display: flex;
+}
+
+.widthMax {
+  width: 99vw;
+}
+
+.widthMid {
+  width: 80vw;
+}
+
+.widthmin {
+  width: 75vw;
+}
+
+.imgMin {
+  width: 25vw;
+  height: auto;
+}
+.imgMid {
+  width: 40vw;
+  height: auto;
+}
+
+.imgCard {
+  width: 20vw;
+  height: auto;
+}
+
+.imgPy {
+  width: 50vw;
+  height: auto;
+}
+.imgGrp {
+  width: 23vw;
+  height: auto;
+}
+
+.imgdev {
+  width: 28vw;
+  height: auto;
+}
+.imgExp {
+  width: 35vw;
+  height: auto;
+}
+.imgTime {
+  width: 38vw;
+  height: auto;
+}
+.imgDev {
+  width: 42vw;
+  height: auto;
+}
+
+.imgApproach{
+  width: 40vw;
+  height: auto;
+}
+
+.text2{
+  font-size: var(--content-text);
+  line-height: 1.8vw;
+}
+
+.text1 {
+  font-size: var(--lg-text);
+}
+
+.heading2{
+  font-size: var( --section-heading2);
+}
+
+.heading1{
+  font-size: var( --section-heading);
+  font-weight: bold;
+}
+
+.heading3{
+  font-size: var(  --section-heading3);
+}
+.btnReadMore{
+
+
+  width: 10vw;
+  height: 3vw;
+  margin-top: 2vw;
+ 
+}
+
+.btnSignup{
+  color:white;
+  border: .2vw solid white;
+  padding-top: .7vw;
+  padding-bottom: .7vw;
+  padding-left: 2vw;
+  padding-right: 2vw;
+  border-radius: .7vw;
+  font-weight:bold;
+  font-size: 1vw;
+
+}
+.expimg{
+  width: 16.5vw;
+height: auto;
+}
+
+.headerImg{
+  width: 100vw;
+  height: auto;
+}
+
+
+.mContainer{
+margin-top: -5.5vw;
+}
+
+@media screen and (max-width: 870px) {
+
+  .mContainer{
+    margin: 0;
+    text-align: center;
+  }
+
+  .headerImg{
+    height: 60vw;
+  }
+  .expimg{
+    width: 35vw;
+height: auto;
+  }
+
+  .btnReadMore{
+    width: 20vw;
+    height: 7vw;
+    border-radius: 1vw;
+  }
+  .heading3{
+    font-size: var(--section-heading3-mob);
+  }
+
+  .heading1{
+    font-size: var( --section-heading-mob);
+  }
+
+  .heading2{
+    font-size: var(--section-heading2-mob);
+  }
+
+  .text1 {
+    font-size: var(--lg-text-mob);
+  }
+
+  .btnSignup {
+    font-size: 2.6vw;
+    border-radius: 1.7vw;
+    height: 8vw;
+    width: auto;
+  }
+
+  .text2{
+    font-size: var(--content-text-mob);
+    line-height: 4.2vw;
+  }
+
+
+  .imgApproach{
+    width: 100%;
+  }
+  .consultingMain {
+    width: 100vw;
+  }
+  .imgDev {
+    width: 100%;
+  }
+  .imgTime {
+    width: 100%;
+  }
+
+ 
+
+  .imgExp {
+    width: 100%;
+  }
+
+  .imgdev {
+    width: 100%;
+  }
+  .imgCard {
+    width: 100%;
+  }
+  .imgGrp {
+    width: 100%;
+  }
+  .imgPy {
+    width: 100%;
+  }
+
+  .imgMid {
+    width: 100%;
+  }
+  .imgMin {
+    width: 100%;
+  }
+
+  .widthMax {
+    width: 80vw;
+  }
+
+  .widthMid {
+    width: 80vw;
+  }
+
+  .widthmin {
+    width: 80vw;
+  }
+
+  .devScop {
+    flex-direction: column;
+    align-items: center;
+    gap: 10vw;
+  }
+
+  .envParent {
+    flex-direction: column;
+    align-items: center;
+ 
+  }
+  .flexRow {
+    flex-direction: column;
+    align-items: center;
+  margin-bottom: 8vw;
+  gap: 6vw;
+    width: 80vw;
+    align-self: center;
+  }
+
+  .line1 {
+
+    font-size: var(--lg-text-mob);
+    
+  }
+
+  .head1{
+    font-size: var(--header-heading-mob);
+  }
+
+  .header{
+    height: 60vw;
+  }
+}
