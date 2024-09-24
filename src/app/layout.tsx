@@ -5,7 +5,7 @@ import Navbar from "@/components/navbar/Navbar";
 import styles from "./layout.module.css";
 
 const inter = Inter({ subsets: ["latin"] });
-const Footer = dynamic(() => import("@/components/footer/Footer"));
+const Footer = dynamic(() => import("@/components/footer/footer"));
 
 export const metadata = {
   title: {
